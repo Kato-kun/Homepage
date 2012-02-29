@@ -9,19 +9,30 @@ body{
 
 #idcard{
 	background-color:#FCFCFC;
-	border:#1B1B1B solid 3px;
+	border:#1B1B1B solid 2px;
 	padding:10px;
-	border-radius:30px;
-	-moz-border-radius:30px;
-	-khtml-border-radius:30px;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-khtml-border-radius:15px;
 	height: 300px;
+}
+
+#impressum{
+	background-color:#FCFCFC;
+	border:#1B1B1B solid 2px;
+	padding:10px;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-khtml-border-radius:15px;
+	height: 300px;
+	overflow:auto;
 }
 
 #ava{
 	margin:10px;
 	height:150px;
 	background-image:url(ava.png);
-	border:#1B1B1B solid 3px;
+	border:#1B1B1B solid 2px;
 	border-radius:30px;
 	-moz-border-radius:30px;
 	-khtml-border-radius:30px;
@@ -75,11 +86,12 @@ img.thumbnailpic{
 }
 
 #menu{
-	border-radius:30px;
-	-moz-border-radius:30px;
-	-khtml-border-radius:30px;
-	height: 20px;
-	background-color: #CCCCCC;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-khtml-border-radius:15px;
+	height: 15px;
+	background-color:#FCFCFC;
+	border:#1B1B1B solid 2px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	text-align: center;
@@ -88,25 +100,23 @@ img.thumbnailpic{
 
 #menu li{
 	display: inline;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 #menu li h3{
 	display: inline;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: 600;
 }
 
-#menu .space{
-	border-left: #6F6F6F 2px solid;
-	padding-top: 9px;
-	padding-bottom: 5px;
+#menu a.active{
+	color: #000000;
 }
 
-#menu a.active{
-	color: #06C;
+#menu a.inactive{
+	color: #808080;
 }
 
 #idcard h2{
@@ -121,9 +131,12 @@ img.thumbnailpic{
 }
 
 a{
-	color:#3F3F3F;
+	color:#808080;
 }
 a:hover{
+	color: #06C;
+}
+#menu a:hover{
 	color: #06C;
 }
 
